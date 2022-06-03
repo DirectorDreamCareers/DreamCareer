@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <header>
+        <header className='hidden sm:block'>
             <div className='py-1'>
                 <div className='mx-auto px-4 max-w-full w-full'>
                     <div className='flex justify-between items-center max-w-screen-xl mx-auto '>
