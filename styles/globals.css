@@ -2,8 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #3e3e3e;
+  font-size: 16px;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 a {
@@ -13,4 +17,10 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  outline: none;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
