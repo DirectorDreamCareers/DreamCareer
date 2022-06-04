@@ -6,8 +6,8 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
     return (
-        <Popover>
-            <nav className='max-w-full w-full text-white py-2 lg:py-5 border-b-orange-300 border-b-4' style={{ backgroundColor: "#0A325A" }}>
+        <Popover className='sticky top-0 z-1100'>
+            <nav className=' max-w-full w-full text-white py-2 lg:py-5 border-b-orange-300 border-b-4' style={{ backgroundColor: "#0A325A" }}>
                 <div className='max-w-screen-xl mx-auto flex justify-between'>
                     <div className='w-full'>
                         <div className='lg:flex w-2/3 justify-between font-bold mx-3 hidden '>
