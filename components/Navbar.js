@@ -11,12 +11,12 @@ function Navbar() {
                 <div className='max-w-screen-xl mx-auto flex justify-between'>
                     <div className='w-full'>
                         <div className='lg:flex w-2/3 justify-between font-bold mx-3 hidden '>
-                            <a href='#' className='hover:text-orange-400'>Home</a>
-                            <a href='#' className='hover:text-orange-400'>About Us</a>
-                            <a href='#' className='hover:text-orange-400'>Services</a>
-                            <a href='#' className='hover:text-orange-400'>Sectors</a>
-                            <a href='#' className='hover:text-orange-400'>Jobs</a>
-                            <a href='#' className='hover:text-orange-400'>Contact Us</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>Home</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>About Us</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>Services</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>Sectors</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>Jobs</a>
+                            <a href='#' className='hover:text-orange-400 uppercase'>Contact Us</a>
                         </div>
                         <div className='lg:hidden '>
                             <Popover.Button className="bg-inherit rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-orange-400  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -45,7 +45,7 @@ function Navbar() {
                 leaveTo="opacity-0 scale-95">
                 <Popover.Panel
                     focus
-                    className="absolute z-10 top-16 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
+                    className="absolute md:top-16 z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                 >
                     <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="px-5 pt-4 flex items-center justify-between">
