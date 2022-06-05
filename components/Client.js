@@ -6,27 +6,27 @@ function Client() {
     const images = [
       {
         img: "./img/patner_1.png",
-        alt: "Patner 1"
+        alt: "Patner1"
       },
       {
         img: "./img/patner_2.png",
-        alt: "Patner 2"
+        alt: "Patner2"
       },
       {
         img: "./img/patner_3.png",
-        alt: "Patner 3"
+        alt: "Patner3"
       },
       {
         img: "./img/patner_4.png",
-        alt: "Patner 4"
+        alt: "Patner4"
       },
       {
         img: "./img/patner_5.png",
-        alt: "Patner 5"
+        alt: "Patner5"
       },
       {
         img: "./img/patner_6.png",
-        alt: "Patner 6"
+        alt: "Patner6"
       }
     ]
   return (
@@ -39,7 +39,7 @@ function Client() {
             <Slider {...settings}>
               {images.map(image =>(
                 <div className='mx-auto'>
-                  <img className='w-28' src={image.img} alt={image.alt} />
+                  <img key={image.alt} className='w-28' src={image.img} alt={image.alt} />
                 </div>
               ))}
             </Slider>
