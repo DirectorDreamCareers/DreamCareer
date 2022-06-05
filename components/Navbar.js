@@ -10,7 +10,7 @@ function Navbar() {
             <nav className=' max-w-full w-full text-white py-2 lg:py-5 border-b-orange-300 border-b-4' style={{ backgroundColor: "#0A325A" }}>
                 <div className='max-w-screen-xl mx-auto flex justify-between'>
                     <div className='w-full'>
-                        <div className='lg:flex w-2/3 justify-between font-bold mx-3 hidden '>
+                        <div className='md:flex lg:w-2/3 justify-between font-bold gap-1 ml-2 hidden w-full'>
                             <a href='#' className='hover:text-orange-400 uppercase'>Home</a>
                             <a href='#' className='hover:text-orange-400 uppercase'>About Us</a>
                             <a href='#' className='hover:text-orange-400 uppercase'>Services</a>
@@ -18,7 +18,7 @@ function Navbar() {
                             <a href='#' className='hover:text-orange-400 uppercase'>Jobs</a>
                             <a href='#' className='hover:text-orange-400 uppercase'>Contact Us</a>
                         </div>
-                        <div className='lg:hidden '>
+                        <div className='md:hidden '>
                             <Popover.Button className="bg-inherit rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-orange-400  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                 <span className="sr-only">Open main menu</span>
                                 <BiMenu className="h-6 w-6" aria-hidden="true" />

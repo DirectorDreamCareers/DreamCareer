@@ -16,9 +16,11 @@ export default function Home() {
       </Head>
       <Header/>
       <Navbar/>
-      <HeroSection/>
+      <HeroSection divClass='hidden md:block'/>
       <AboutUs/>
+      <HeroSection divClass='md:hidden mt-6'/>
       <Client/>
+      <Footer/>
     </div>
   )
 }

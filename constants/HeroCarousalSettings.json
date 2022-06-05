@@ -1,11 +1,11 @@
 {
-    "infinite": true,
-    "dots": true,
-    "slidesToShow": 1,
-    "slidesToScroll": 1,
-    "lazyLoad": true,
-    "draggable": true,
-    "autoplay": true,
-    "autoplaySpeed": 3000,
-    "pauseOnHover": false
-  }
+  "infinite": true,
+  "dots": true,
+  "slidesToShow": 1,
+  "slidesToScroll": 1,
+  "lazyLoad": true,
+  "draggable": true,
+  "autoplay": true,
+  "autoplaySpeed": 3000,
+  "pauseOnHover": false
+}
