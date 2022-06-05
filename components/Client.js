@@ -38,7 +38,7 @@ function Client() {
           <div className='w-3/4 mx-auto'>
             <Slider {...settings}>
               {images.map(image =>(
-                <div className='mx-auto'>
+                <div key={image.alt} className='mx-auto'>
                   <img key={image.alt} className='w-28' src={image.img} alt={image.alt} />
                 </div>
               ))}
