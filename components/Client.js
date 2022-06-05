@@ -6,27 +6,27 @@ function Client() {
     const images = [
       {
         img: "./img/patner_1.png",
-        alt: "Patner1"
+        alt: "patner1"
       },
       {
         img: "./img/patner_2.png",
-        alt: "Patner2"
+        alt: "patner2"
       },
       {
         img: "./img/patner_3.png",
-        alt: "Patner3"
+        alt: "patner3"
       },
       {
         img: "./img/patner_4.png",
-        alt: "Patner4"
+        alt: "patner4"
       },
       {
         img: "./img/patner_5.png",
-        alt: "Patner5"
+        alt: "patner5"
       },
       {
         img: "./img/patner_6.png",
-        alt: "Patner6"
+        alt: "patner6"
       }
     ]
   return (

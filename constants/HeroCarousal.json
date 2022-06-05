@@ -1,25 +1,25 @@
 [
     {
       "img": "/img/slider-1.jpg",
-      "alt": "Slider1",
+      "alt": "slider1",
       "text": "Do You Want To Hire Right Talent",
       "color": "text-white"
     },
     {
       "img": "/img/slider-2.jpg",
-      "alt": "Slider2",
+      "alt": "slider2",
       "text": "Want To Have A Hassle Free Recruitment Service",
       "color": "text-orange-400"
     },
     {
       "img": "/img/slider-3.png",
-      "alt": "Slider3",
+      "alt": "slider3",
       "text": "Experience World-Class Hiring Solutions",
       "color": "text-gray-500"
     },
     {
       "img": "/img/slider-4.png",
-      "alt": "Slider4",
+      "alt": "slider4",
       "text": "Then This Website Is For You",
       "color": "text-orange-600"
     }
